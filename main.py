@@ -9,9 +9,9 @@ DOMAIN_NAME = "" # Specify your domain/IP address here (optional)
 def hello():
     return "What's up.\n"
 
-@app.route('/easteregg', methods=['GET'])
+@app.route('/whateasteregg', methods=['GET'])
 def easter():
-    return "Oh hey you found the Easter Egg!\n"
+    return "Oh hey you found an Easter Egg!\n"
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
